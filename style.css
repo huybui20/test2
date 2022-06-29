@@ -87,7 +87,7 @@
   flex-direction: column;
   align-items: center;
   padding: 20px;
-  height: 200px;
+  height: 300px;
 }
 .page .about .head{
     color: white;
@@ -101,10 +101,15 @@
     justify-content: center;
     align-items: center;
 }
-.column-left , .column-right{
+.column-left {
   color: #fff;
-  margin-left: 50px;
-  margin-right: 20px;
+  margin-left: 300px;
+  margin-right: 250px;
+}
+.column-right {
+  color: #fff;
+  margin-left: 250px;
+  margin-right: 300px;
 }
 .page .about .button{
     background-color: #13e2a7f8;
@@ -133,7 +138,6 @@
   margin-top: 50px;
 }
 .page .end{
-  width: 600px;
   width: 100%;
   padding: 20px;
   background-color: gray;
@@ -174,4 +178,9 @@
 
 .star i {
   font-size: 100%;
+}
+.icon{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
 }
